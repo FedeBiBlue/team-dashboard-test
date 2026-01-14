@@ -8,7 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
             button.textContent = `Like (${currentLikes})`;
         });
     });
+    
+    // Add a button in HTML first, then this logic:
+    const themeBtn = document.createElement('button');
+    themeBtn.innerText = "🌙 Toggle Dark Mode";
+    themeBtn.className = "theme-toggle";
+    document.querySelector('header').appendChild(themeBtn);
 
-    // You can add more complex JS here later, e.g., dynamically adding cards
-    // For the Git training, simple HTML/CSS changes will be the focus.
+    themeBtn.addEventListener('click', () => {
+        document.body.classList.toggle('dark-theme');
+    });
+
 });
