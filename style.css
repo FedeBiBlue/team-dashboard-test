@@ -121,3 +121,17 @@ footer {
     font-size: 0.75rem;
     font-weight: bold;
 }
+
+/* If the body has the .dark-theme class, change colors */
+body.dark-theme {
+    background-color: #5E4848;
+    color: #f4f4f4;
+}
+body.dark-theme .team-member-card {
+    background-color: #BABABA;
+    color: white;
+}
+body.dark-theme .team-member-card h2 {
+    background-color: #E3E3E3;
+    color: #3498db;
+}
