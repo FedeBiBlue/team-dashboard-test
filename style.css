@@ -106,3 +106,18 @@ footer {
     background: #eee;
     border: 3px solid #2c3e50;
 }
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.skill-tag {
+    background: #e0e0e0;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
